@@ -1,18 +1,38 @@
-﻿// Zad2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// Zad4.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
+/*#include <iostream>
 
 int main()
 {
-    //Zad 2 
-    //Да се въведе едно цяло число и да се определи дали е четно или нечетно
-    int guessNumber;
-    printf("Enter value for number: ");
-    scanf_s("%d", &guessNumber);
-    
-
-}
+	int num1, res;
+	printf("Enter num1: ");
+	scanf_s("%d", &num1);
+	if (num1 % 2 == 0)
+	{
+		printf("The number is even!\n"); 
+		printf("The number is even!\n");
+	}
+	else
+	{
+		printf("The number is odd!\n");
+		printf("The number is odd!\n");
+		printf("The number is odd!\n");
+	}
+	res = num1 % 2;
+	printf("Remainder:%d\n", res);
+	if (res > 3)
+	{
+		int res2 = num1 + res;
+		printf("Remainder + Value of the Number: %d", res2);
+	}
+	else
+	{
+		int res3 = num1 - res;
+		printf("Remainder - Value of the Number: %d", res3);
+	}
+	
+}*/
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
